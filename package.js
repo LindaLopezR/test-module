@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'igoandsee:test',
+  name: 'igoandsee:test-module',
   version: '0.0.1',
   summary: '',
   git: '',
