@@ -15,10 +15,6 @@ Package.onUse(function(api) {
   api.mainModule('test.js', 'client');
 });
 
-Npm.depends({
-  moment: '2.18.1',
-});
-
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
