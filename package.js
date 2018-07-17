@@ -11,7 +11,6 @@ Package.onUse(function(api) {
   api.use('blaze-html-templates@1.0.4');
   api.use('ecmascript');
   api.use('templating');
-  api.use('tap:i18n@1.8.2');
   api.mainModule('test.js', 'client');
 });
 
